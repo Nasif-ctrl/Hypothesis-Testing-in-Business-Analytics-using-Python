@@ -12,15 +12,15 @@ This project explores a suite of statistical hypothesis tests, encompassing both
 |  | Chi-Square Test of Independence |
 |  | Chi-Square Goodness-of-Fit Test |  
   
-Each test is applied considering its assumptions and conditions of validity, supported by preliminary checks such as the __Shapiro-Wilk test__ for normality and __Levene’s test__ for homogeneity of variances.  
-The visual representation of data through histograms, Q-Q plots and scatter plots facilitates a clearer understanding of the underlying distributions and assists in the selection of appropriate statistical techniques.  
-The dataset used in this study was synthetically generated to simulate realistic sales and regional data patterns. Coding was conducted using Google Colab, a cloud-based Python environment that allows seamless integration with Google Drive and simplifies code execution and data handling. Jupyter Notebook could also be used as an alternative.    
+🧪 Each test is applied considering its assumptions and conditions of validity, supported by preliminary checks such as the __Shapiro-Wilk test__ for normality and __Levene’s test__ for homogeneity of variances.  
+🧪 The visual representation of data through histograms, Q-Q plots and scatter plots facilitates a clearer understanding of the underlying distributions and assists in the selection of appropriate statistical techniques.  
+🧪 The dataset used in this study was synthetically generated to simulate realistic sales and regional data patterns. Coding was conducted using Google Colab, a cloud-based Python environment that allows seamless integration with Google Drive and simplifies code execution and data handling. Jupyter Notebook could also be used as an alternative.    
 
 ## __📂 Contents__  
-| File Name | File Type | Description |
-|-----------|-----------|-------------|
-| README | MD | Read this before anything else |
-| sales_data | CSV | Dataset generated for analysis |
+|    File Name     | File Type | Description |
+|------------------|-----------|-------------|
+|      README      |    MD     | Read this before anything else |
+|    sales_data    |    CSV    | Dataset generated for analysis |
 | Code_Hypothesis_Tests_in_Python | IPYNB | Python Notebook |
   
 ## __▶️ How to Execute the Program__
@@ -41,17 +41,11 @@ Before executing the program, download the IPYNB file (Code_Hypothesis_Tests_in_
 __Dataset Summary:__ The dataset consists of 360 entries across 8 columns, including region, campaign_type, before_sales, after_sales, ad_spend, and revenue, allowing for comprehensive statistical analysis of marketing effectiveness.  
 
 __Notable Statistical Test Insights:__  
-
     ✅ Paired t-test showed a significant difference between before and after sales (p < 0.000001), confirming the effectiveness of campaigns.  
-
     ❌ Independent t-test found no significant revenue difference between Asia and Europe (p = 0.8708).  
-
     ❌ One-way ANOVA revealed no significant revenue variation among Email, Social Media, and TV campaigns (p = 0.5067).  
-
     ❌ Pearson Correlation showed no significant linear relationship between ad spend and revenue; a non-parametric alternative may be better due to non-linearity.  
-
     ❌ Chi-square test of independence indicated no association between gender and email open rates.  
-
     ✅ Chi-square goodness-of-fit test showed that campaign types are not equally distributed, indicating intentional or skewed targeting.  
 
 These observations help in refining marketing strategies and choosing appropriate statistical methods for deeper insights.  
